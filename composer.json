@@ -1,0 +1,29 @@
+{
+    "name": "coolpie/coolpie-util",
+    "description": "PHP utility classes made by yours truly",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Coolpie",
+            "email": "coolpie@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Coolpie\\Util\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Coolpie\\Util\\Test\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^13.4"
+    }
+}
+
