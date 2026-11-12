@@ -11,7 +11,7 @@ PHP 7.2 and later.
 # Composer
 
 ```bash
-composer require TODO
+composer require coolpie/util
 ```
 
 # Example - Coolpie Date
